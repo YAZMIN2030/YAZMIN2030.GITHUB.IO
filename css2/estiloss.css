@@ -1,0 +1,191 @@
+
+@media screen and (max-width: 980px){
+    #contenedor{
+        width: 90%;
+    }
+    #contenido{
+        width: 60%;
+    }
+    #barra_lateral{
+        width:30%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    #encabezado{
+        height: auto;
+    }
+    #contenido{
+        width: auto;
+    }
+    #barra_lateral{
+        display:none;
+    }
+}
+
+
+h1 {
+    text-align: center;
+    color: black;
+    margin: 20x;
+    margin-top: 40px;
+    padding: 30px;
+    
+  
+}
+
+h2{
+    text-align: center;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Lora', serif;
+
+}
+
+h3{
+    text-align: right;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Lora', serif;
+}
+
+h4{
+    text-align: right;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Lora', serif;
+}
+
+
+
+
+h5{
+    text-align: right;
+    margin-right: 70px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Lora', serif;
+
+    }
+   
+
+body {
+    background-image: url("img/img.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: 1300px;
+   
+}
+
+
+
+
+ ul{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Lora', serif;
+   }
+
+
+img {
+    border-style:solid;
+    color: rgb(13, 13, 174);
+    border-radius: 60%;
+    border-bottom: 5PX;
+    margin-left: 40PX;
+    margin-top: 40PX;
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+
+
+legend {
+    border-width: 5px;
+    border-style: solid;
+    color: rgb(13, 13, 174);
+    padding: 20px;
+    margin: 10px;
+    background-color: gainsboro;
+    
+    
+}
+
+Form { 
+    margin: 15px;
+    padding: 20px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Lora', serif
+  
+}
+
+
+nav ul {
+    display: flex;
+    margin: 0 -10px;
+    padding: 50px;
+    max-width: 900px;
+  }
+  
+  nav li {
+    margin: 0 10px;
+    padding: 20px;
+    max-width: 900px;
+  }
+  
+  .push-right {
+    margin-left: auto;
+    padding: 20px;
+  }
+  
+  
+.habilidades{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+label{ 
+padding-right: 10px;
+font-size: 1rem;
+}
+
+.container{
+    height: 25px;
+    background-color: #ccc;
+    position:relative;
+    border-radius: 7px;
+}
+
+.container .progress-bar {
+    position:absolute;
+    height: 95%;
+    background-color: rgb(54, 54, 193);
+    border-radius: 7px;
+}
+
+@keyframes progress-animation {
+    0% { width: 0%;}
+    95% { width: 95%;}
+
+}
+
+#play-animation{
+    animation: progress-animation 5s forwards ;
+}
+
+
+P{
+    text-align: left;
+    border-width: 5px;
+    border-style: solid;
+    color: rgb(13, 13, 174);
+    padding: 20px;
+    margin: 35px;
+    background-color: gainsboro;
+    
+}
+
+
+
